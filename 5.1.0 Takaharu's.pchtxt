@@ -1,0 +1,88 @@
+@nsobid-D3C62FCA532DB43263FC4D864DDD1E2C
+#Splatoon 2 5.1.0
+
+@flag offset_shift 0x100
+
+// Moon Jump [Takaharu]
+@enabled
+00FF864C 02000014
+
+// Team Color White VS Black Plaza Only [Takaharu]
+@enabled
+00142334 C0035FD6
+
+// No Timer Salmon Run [Takaharu]
+@enabled
+012F9524 00FEBF12C0035FD6
+
+// Paint Point 0 Display Only [Takaharu]
+@enabled
+012F8F60 00008052C0035FD6
+012F8FCC 00008052C0035FD6
+
+// No Sound Effect [Takaharu]
+@enabled
+018B0874 00008052C0035FD6
+
+// No Sound [Takaharu]
+@enabled
+018B0874 00008052C0035FD6
+018B0940 00008052C0035FD6
+// Lan Online Lobby [Takaharu]
+@enabled
+014887F8 08000014
+01488800 03000014
+
+// Rising Fly [Takaharu]
+@enabled
+00FF8510 C0035FD6
+00FF8620 C0035FD6
+
+// Always Start Position [Takaharu]
+@disabled
+00FDE610 C0035FD6
+
+// Get Super Sea 999 [Takaharu]
+@enabled
+002F5044 E07C8052C0035FD6
+
+// Get Money 999 [Takaharu]
+@enabled
+002F5030 E07C8052C0035FD6
+
+// No Motion Roller [Takaharu]
+@enabled
+010138D8 E0E18452C0035FD6
+
+// No Swing Slosher [Takaharu]
+@enabled
+01013A58 3A000014
+
+// Explode Bombs Quickly [Takaharu]
+@disabled
+00494A38 00008052C0035FD6
+00494A68 00008052C0035FD6
+
+// Instant Respawn [Takaharu]
+@enabled
+010EFD00 00008052C0035FD6
+
+// Don't Chase Robo [Takaharu]
+@enabled
+0048AC68 00008052C0035FD6
+
+// Explode Quickly Gachihoko [Takaharu]
+@enabled
+0049E590 00008052C0035FD6
+
+// Chase infinitely Robo [Takaharu]
+@enabled
+0048AC68 E0FF8152C0035FD6
+
+// Does Not Explode Splash Bomb [Takaharu]
+@enabled
+00494A38 E0FF8152C0035FD6
+
+// Salmon Run Private Match With Timer [Takaharu]
+@enabled
+014B39A0 2B000014
